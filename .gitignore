@@ -1,3 +1,5 @@
 node_modules
 public
 dist
+.deploy_git
+.DS_Store
