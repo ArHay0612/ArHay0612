@@ -33,8 +33,8 @@ tags:
 - Markdown All in One （vscode 插件）
 - Prettier （vscode 插件）
 
-![pluginImg](/images/pluginImg1.png)
-![pluginImg](/images/pluginImg2.png)
+![pluginImg1](/images/pluginImg1.png)
+![pluginImg2](/images/pluginImg2.png)
 
 #### vscode
 
