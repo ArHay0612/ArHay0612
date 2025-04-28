@@ -11,22 +11,15 @@ tags:
 
 ## vscode 自動生成 md 目錄並轉換格式
 
-<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
-
-<!-- code_chunk_output -->
-
-- [vscode 自動生成 md 目錄並轉換格式](#vscode-自動生成-md-目錄並轉換格式)
-  - [前言](#前言)
-  - [工具準備](#工具準備)
-    - [vscode](#vscode)
-    - [markdownlint](#markdownlint)
-    - [Markdown Preview Enhanced](#markdown-preview-enhanced)
-    - [Markdown All in One](#markdown-all-in-one)
-    - [Prettier](#prettier)
-  - [生成目錄](#生成目錄)
-  - [轉換md格式](#轉換md格式)
-
-<!-- /code_chunk_output -->
+- [前言](#前言)
+- [工具準備](#工具準備)
+  - [vscode](#vscode)
+  - [markdownlint](#markdownlint)
+  - [Markdown Preview Enhanced](#markdown-preview-enhanced)
+  - [Markdown All in One](#markdown-all-in-one)
+  - [Prettier](#prettier)
+- [生成目錄](#生成目錄)
+- [轉換md格式](#轉換md格式)
 
 ### 前言
 
@@ -67,8 +60,8 @@ tags:
 
 1. vscode打開md文件
 2. 將光標放在需要生成目錄的位置
-3. 然後按下 `ctrl+shift+P` 輸入 `markdown-preview-enhanced.createTOC`
-   1. _使用關鍵字即可，如 mpetop_
+3. 然後按下 `ctrl+shift+P` 輸入 `Markdown Preview Enhanced: Create TOC`
+   1. _使用關鍵字即可，如 mpetoc_
 4. 會在光標位置自動生成以下語句  
 
    ```yml
@@ -93,3 +86,6 @@ tags:
   _右鍵菜單還有其他選項，比如更換preview主題等，請自行摸索，本文不再贅述。_
 
 3. 根據所需的類型格式導出即可
+
+**此方法僅支持轉換格式後的正常跳轉！**
+**如果是通過hexo發布的md網頁請使用Markdown All in One: Create Table of Contents,否則發布後不能跳轉！！！**
