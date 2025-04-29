@@ -14,7 +14,7 @@ timezone: ''
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://ArHay0612.github.io/
-permalink: :year/:month/:day/:title/
+permalink: :title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -159,6 +159,11 @@ OhMyLive2d:
         duration: 1500
         message:
           - 你好呀,欢迎来到ArHay的小站~
+
+# Sitemap
+# https://github.com/hexojs/hexo-generator-sitemap
+sitemap:
+    path: sitemap.xml
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
