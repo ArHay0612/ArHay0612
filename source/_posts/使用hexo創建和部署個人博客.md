@@ -3,7 +3,7 @@ title: 使用hexo+Next創建和部署個人博客
 date: 2025-04-24 09:57:58
 description: 通過hexo生成或維護個人博客靜態網頁,更換Next主題，並deploy到github
 tags: 
-    - hexo 
+    - hexo
     - nodejs
 ---
 
@@ -376,7 +376,7 @@ models:
 
 ##### 預覽
 
-![live2d_demo](/images/live2d_demo.png)
+![live2d_demo](/images/live2d_demo.jpg)
 
 ### 博客訪客和閱讀量統計
 

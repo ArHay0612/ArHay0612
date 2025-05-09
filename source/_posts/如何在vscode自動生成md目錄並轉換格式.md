@@ -64,7 +64,7 @@ tags:
    1. _使用關鍵字即可，如 mpetoc_
 4. 會在光標位置自動生成以下語句  
 
-   ```yml
+   ```xml
    <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
    ```
 
